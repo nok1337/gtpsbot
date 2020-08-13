@@ -20,7 +20,7 @@ function isRunning(cb) {
 client.on('ready', () => {
 	  console.log(`GTPS Bot Running.`)
 	  console.log(`Logged in as ${client.user.tag}`)
-client.user.setActivity('GTPS Discord Bot', { type: 'LISTENING' });
+client.user.setActivity('GTPS Discord Bot by nok#1337', { type: 'LISTENING' });
 
 client.on("message", async message => {
 	if(message.author.bot) return;
