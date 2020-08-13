@@ -36,7 +36,7 @@ client.user.setActivity('github.com/nok1337/', { type: 'STREAMING' });
 	.addField('Players online:', '0')
 	.setTimestamp()
 	.setFooter('Last updated', '');
-    client.channels.cache.get('743263512687673427').send(statusz).then((msg)=> {
+    client.channels.cache.get('channelid').send(statusz).then((msg)=> {
   setInterval(function(){
   	var color = randomColor();
 isRunning('server.exe', (status) => {
