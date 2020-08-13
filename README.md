@@ -4,7 +4,5 @@ Growtopia Private Server Discord bot made with Nodejs & Discordjs
 Please run setup.bat first.
 # Note
 Change your token in config.json
-# Reminder
-At line 39 Change channel id to your server status chanel id
 # Credits
-Credits to https://github.com/gucktubeyt/ for the run & start command
+Credits to GuckTubeYT & Kit a.k.a Ralsei
